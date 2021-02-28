@@ -1,13 +1,16 @@
 * {
     font-family: Helvetica,Arial , sans-serif;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
 }
 
-body {
-    padding: 60;
+hr {
+   border: 1px solid rgb(41, 41, 41);
 }
 
 input {
-    color:gray;
+    color: whitesmoke;
+    border: transparent;
     width: 100%;
     font-size: 1.2rem;
 }
@@ -19,8 +22,9 @@ input {
 }
 
 .card {
+    background-color: rgb(41, 41, 41); 
     align-content: center;
-    border: 1px solid gray;
+    border: 2px solid rgb(80, 80, 80);
     border-radius: 6px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -28,6 +32,7 @@ input {
 }
 
 .card p {
+    background-color: rgb(41, 41, 41);
     padding: 5px;
     text-align: center;
 }
@@ -37,5 +42,5 @@ input {
 }
 
 .green{
-    color: rgb(21, 190, 77);
+    color: greenyellow;
 }
